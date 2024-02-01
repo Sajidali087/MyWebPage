@@ -208,7 +208,9 @@ nav ul {
     width: 100%;
     margin: 0 auto;
     padding: 50px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin-top: 60px;
+    background-color: rgb(193, 211, 130);
 }
 
 .ticket {
@@ -233,6 +235,7 @@ nav ul {
     width: 50%;
     height: auto;
     margin: 0 auto;
+    margin-top: 100px;
     /* background-color: yellow; */
 }
 
@@ -245,8 +248,8 @@ nav ul {
 }
 
 .cityinfo {
-    height: 350px;
-    width: 500px;
+    height: 500px;
+    width: 700px;
     /* align-items: self-end; */
     position: absolute;
     display: inline-block;
@@ -261,11 +264,11 @@ nav ul {
 #info{
     /* background-color: red; */
     width: 600px;
-    height: 250px;
+    height: 400px;
     margin-left: 220px;
-    margin-top: 50px;
+    margin-top: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(86, 105, 64);
+    background-color: rgb(255, 255, 255);
     padding: 10px;
 }
 .planheading{
@@ -280,7 +283,7 @@ nav ul {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 500px;
+    margin-top: 750px;
 }
 .subscription{
     display: flex;
@@ -344,4 +347,57 @@ opacity: 80%;
 }
 .plan:active{
     scale: 1.02;
+}
+
+/* Service Portion */
+
+.services{
+    width: 100%;
+    background-color: rgb(106, 107, 105);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    color: #01141a;
+}
+
+.subservice{
+    display: inline-block;
+    width: calc(25% - 10px);
+    /* margin: 0 auto; */
+    /* margin-left: 30px; */
+    /* background-color: rgb(86, 87, 84); */
+    margin-bottom: 50px;
+    /* display: flex; */
+    position: relative;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+    padding-left: 30px;
+}
+.subheading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ddaf15;
+    font-size: 170%;
+}
+.servicetext{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    height: auto;
+    font-size: 120%;
+}
+.reserveseat{
+    background-color: rgb(49, 46, 46);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 120%;
+    /* margin-top: 30px;  */
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.reserveseat:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(49, 46, 46);
+}
+.reserveseat:active{
+    color: rgb(138, 57, 57);
+    background-color: rgb(46, 44, 44);
 }
