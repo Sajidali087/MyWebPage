@@ -147,13 +147,18 @@ nav ul {
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    padding-left: 70px;
+    /* padding-left: 70px; */
     /* justify-content: space-between; */
     margin-top: -200px;
     /* z-index: 1; */
     /* background-color: yellow; */
+    /* align-items: baseline; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagecontainer {
@@ -170,6 +175,7 @@ nav ul {
 }
 
 .imagecaption {
+    /* position: relative; */
     text-decoration: none;
     background-color: rgb(48, 42, 42);
     width: 300px;
@@ -177,7 +183,10 @@ nav ul {
     color: rgb(250, 244, 244);
     font-size: 150%;
     height: auto;
-    margin-top: -5px;
+    opacity: 80%;
+    margin-left: 17px;
+    /* border: 2px solid black; */
+    margin-top: -68px;
     /* border-color: black; */
     /* border: 2px solid rgb(37, 32, 32) */
 }
@@ -221,7 +230,7 @@ nav ul {
 }
 
 .resort {
-    width: 75%;
+    width: 50%;
     height: auto;
     margin: 0 auto;
     /* background-color: yellow; */
@@ -241,36 +250,98 @@ nav ul {
     /* align-items: self-end; */
     position: absolute;
     display: inline-block;
-    width: 49%;
+    width: 10%;
     font-size: 115%;
     /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 #info{
     /* background-color: red; */
     width: 600px;
     height: 250px;
-    margin-left: 420px;
+    margin-left: 220px;
     margin-top: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(86, 105, 64);
     padding: 10px;
 }
+.planheading{
+    font-size: 250%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(75, 74, 74);
+}
 .Subscriptionportion{
     /* position: absolute; */
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     margin-top: 500px;
 }
-.kattext{
-    background-color: yellow;
-    width: 380px;
-    height: auto;
-    /* margin-top: -8px; */
-    /* position: absolute; */
+.subscription{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
 }
+
 .plan{
-    display: inline-block;
-    width: 33%;
-    /* position: relative; */
+    width: calc(33.33% - 10px);
+    margin-left: 30px;
+    margin-bottom: 50px;
+    
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+figure{
+    position: relative;
+    margin: 0;
+}
+.subfigure {
+    width: 100%;
+    height: auto;
+    display: block;
+    width: 390px;
+    height: 230px;
+}
+.plancaption{
+   position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 380px;
+    height: 220px;
+    top: -1px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    padding-top: 25px;
+    opacity:00%;
+    margin: 0;
+    text-align: center;
+    font-size: 140%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.Lake{
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    
+}
+.plancaption:hover{
+opacity: 100%;
+}
+.plan:hover{
+    scale: 1.06;
+}
+.plancaption:active{
+opacity: 80%;
+/* filter: contrast(130%); */
+}
+.plan:active{
+    scale: 1.02;
 }
