@@ -90,7 +90,7 @@ nav ul {
 
     width: 100%;
     height: auto;
-    /* display: block; */
+    display: inline-block;
     position: relative;
     display: inline-block;
     /* opacity: 80%;  */
@@ -112,11 +112,14 @@ nav ul {
     font-family: "Poppins", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 170%;
 }
-
-.bodytxt {
+/* .Webbody div h1{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+/* } */ */
+.bodytxt p{
     position: absolute;
     top: 40%;
     left: 20%;
+    /* color: red; */
     right: 20%;
     color: white;
     font-family: "Poppins", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -405,6 +408,60 @@ opacity: 80%;
     background-color: rgb(46, 44, 44);
 }
 
+/* Blog section */
+.Blog{
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+}
+.Blog h1{
+    font-size: 250%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(75, 74, 74);
+}
+.myblog{
+    display: inline-block;
+    width: 49%;
+    padding: 20px;
+    /* background-color: #5c6669; */
+}
+.blogtext p {
+    font-size: 130%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(145, 19, 19);
+}
+.blogtext div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #241c03;
+    text-align: right
+}
+.readmore{
+    text-align: center;
+    /* width: 100%; */
+}
+.readmore a{
+ display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3498db; /* Change this to your desired background color */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.readmore a:hover{
+    background-color: #2980b9;
+}
+.readmore a:active{
+    background-color: #0f3d5f;
+}
+/* .readmore a:focus{
+    outline: none;
+  box-shadow: 0 0 50px rgba(52, 152, 219, 0.7);
+} */
 /* footer */
 /* body {
     margin: 0;
